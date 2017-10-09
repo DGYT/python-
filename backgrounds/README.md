@@ -1,3 +1,5 @@
+必须放在c盘下，把整个backgrounds文件夹，因为*.exe里的地址是写死的
+
 #=======================v1=======================
 
 RunDll32.exe USER32.DLL,UpdatePerUserSystemParameters
