@@ -1,6 +1,6 @@
 必须放在c盘下，把整个backgrounds文件夹，因为*.exe里的地址是写死的
 
-# =======================v1=======================
+# ================v1================
 
 RunDll32.exe USER32.DLL,UpdatePerUserSystemParameters
 
@@ -8,7 +8,7 @@ RunDll32.exe USER32.DLL,UpdatePerUserSystemParameters
 
 
 
-# =======================v2=======================
+# ================v2================
 
 SystemParametersInfo(SPI_SETDESKWALLPAPER, 0, "C:\\backgrounds\\morning.bmp", SPIF_SENDCHANGE);
 
