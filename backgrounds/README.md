@@ -1,0 +1,2 @@
+RunDll32.exe USER32.DLL,UpdatePerUserSystemParameters
+这个参数用来更新桌面，但是win7下有时不能更新。需要试试别的方法
