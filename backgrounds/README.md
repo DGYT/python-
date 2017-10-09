@@ -10,6 +10,14 @@ RunDll32.exe USER32.DLL,UpdatePerUserSystemParameters
 
 # ================v2================
 
+使用这个方法来更新桌面：
 SystemParametersInfo(SPI_SETDESKWALLPAPER, 0, "C:\\backgrounds\\morning.bmp", SPIF_SENDCHANGE);
 
 使用了点c++，生成exe文件，再用python调用。写死了，不太好。但是ctypes没搞懂，怎么传c++类型的参数。
+
+
+# ================v3================
+
+RunDll32.exe USER32.DLL,UpdatePerUserSystemParameters
+
+继续用v1的更新桌面方法，但是不用必须放在c盘下了。只要放在一个文件夹就可以了。
