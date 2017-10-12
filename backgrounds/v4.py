@@ -35,6 +35,8 @@ def which_pic(h):
 
 
 if __name__ == '__main__':
-    h = current_hour()
-    pic_path = which_pic(h)
-    change_desk(pic_path)
+    while 1:
+        h = current_hour()
+        pic_path = which_pic(h)
+        change_desk(pic_path)
+        time.sleep(1)
