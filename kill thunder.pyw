@@ -1,5 +1,9 @@
 import os
 import time
+
+with open("log", 'a') as f:
+    f.write(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()) + '\n')
+
 while 1:
     time.sleep(60)
     status = os.system('tasklist|findstr "Thunder.exe"')
